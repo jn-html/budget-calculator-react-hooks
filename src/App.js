@@ -18,9 +18,6 @@ const initialExpenses = [
 // function for updates/control
 // default value
 
-// class based component
-// state = {expenses:initialExpenses}
-// this.setState({})
 
 function App() {
   // const result = useState(initialExpenses);
@@ -32,10 +29,19 @@ function App() {
 
   return (
     <div>
-      hello from app
-      <ExpenseForm />
-      <ExpenseList />
       <Alert />
+      <h1>budget calculator</h1>
+      <main className="App">
+        <ExpenseForm />
+        <ExpenseList expenses={expenses} />
+      </main>
+      <h1>
+        total spending:{""} <span className="total">
+          $ {expenses.reduce((accumulator, current) => {
+            return (accumulator += current.amount);
+          },0)}
+        </span>
+      </h1>
     </div>
   );
 }
