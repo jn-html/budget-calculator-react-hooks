@@ -6478,9 +6478,9 @@ memory-fs@^0.5.0:
     readable-stream "^2.0.1"
 
 merge-deep@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.2.tgz#f39fa100a4f1bd34ff29f7d2bf4508fbb8d83ad2"
-  integrity sha512-T7qC8kg4Zoti1cFd8Cr0M+qaZfOwjlPDEdZIIPPB2JZctjaPM4fX+i7HOId69tAti2fvO6X5ldfYUONDODsrkA==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.3.tgz#1a2b2ae926da8b2ae93a0ac15d90cd1922766003"
+  integrity sha512-qtmzAS6t6grwEkNrunqTBdn0qKwFgNWvlxUbAV8es9M7Ot1EbyApytCnvE0jALPa46ZpKDUo527kKiaWplmlFA==
   dependencies:
     arr-union "^3.1.0"
     clone-deep "^0.2.4"
@@ -6843,10 +6843,10 @@ node-releases@^1.1.52:
   dependencies:
     semver "^6.3.0"
 
-node@^14.5.0:
-  version "14.5.0"
-  resolved "https://registry.yarnpkg.com/node/-/node-14.5.0.tgz#9b41f8e6790225a6ffae0ff3e355cad55c745c65"
-  integrity sha512-WxjuzzP5rI3yM/TUdajF4FzKUorUYIOtcNlsMh9a/JX5YsCBS/I2PdEe03F80Nnyfd9qZTjKnTV9XuQuuOYc6Q==
+node@^12.18.2:
+  version "12.22.1"
+  resolved "https://registry.yarnpkg.com/node/-/node-12.22.1.tgz#0268eaf63aaaadc2f3d3f7fda2e05807ea33b797"
+  integrity sha512-kau0HlJXLPPr2+FNsrQ29B+/FJQaB4xyg+aJbm/9aFoH/6Gr4Q/5g8YtRggvl3cpvCd/wgH8k1VEzpyxrxGqdg==
   dependencies:
     node-bin-setup "^1.0.0"
 
